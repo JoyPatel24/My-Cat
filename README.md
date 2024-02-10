@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Front-End Assignment
 
-## Getting Started
+The task is to create and deploy a simple Next.js - React app.
 
-First, run the development server:
+## Task
+1. Fork this repository.
+2. Extend the React app using the starter guide [here](https://react.dev/learn/start-a-new-react-project).
+3. Use any modern UI framework and have a homepage (root url) i.e. `/` path to display random cat data.
+4. Use the [The Cat API](http://thecatapi.com) to get information and images of cats.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Brownie Points
+Deploy the application on Vercel or any other similar platform. Feel free to choose any platform for hosting.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### The Cat API
+#### Get a random cat ID & Image
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+https://api.thecatapi.com/v1/images/search?has_breeds=1
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Get complete details of the cat with ID
 
-## Learn More
+Using the above API you'll get ID which when passed to this API will give you full details.
 
-To learn more about Next.js, take a look at the following resources:
+`https://api.thecatapi.com/v1/images/<ID>`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Grading
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Grading will be on the basis of the following key points:
 
-## Deploy on Vercel
+- Structure and file organization
+- Quality of the page
+- Code Quality
+- Coding Practices & Standards followed
+- Anything done to surprise us!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Disclaimer
+- We will not be able to provide any monetary support to host the application. You can choose free hosting platforms too.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Contact
+For any assistance, please create a GitHub issue. We will resolve your query there.
